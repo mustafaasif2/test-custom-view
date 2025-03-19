@@ -2,14 +2,14 @@
  * @type {import('@commercetools-frontend/application-config').ConfigOptionsForCustomView}
  */
 const config = {
-  name: 'My New Custom View Project',
+  name: 'Mustafa Custom View',
   cloudIdentifier: 'gcp-eu',
   env: {
     development: {
       initialProjectKey: 'test-project-12121',
     },
     production: {
-      customViewId: 'TODO',
+      customViewId: 'cm8g1h3fn0018sm01allrpq37',
       url: 'https://my-custom-view.com',
     },
   },
