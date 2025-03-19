@@ -10,7 +10,7 @@ const config = {
     },
     production: {
       customViewId: 'cm8g1h3fn0018sm01allrpq37',
-      url: 'https://my-custom-view.com',
+      url: 'https://test-custom-view.vercel.app',
     },
   },
   oAuthScopes: {
