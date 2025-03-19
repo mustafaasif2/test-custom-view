@@ -10,7 +10,7 @@ const config = {
     },
     production: {
       customViewId: 'cm8g1h3fn0018sm01allrpq37',
-      url: 'https://test-custom-view-jm7yvjglf-mustafa-asifs-projects-df9aa0b1.vercel.app/',
+      url: 'https://test-custom-view-jm7yvjglf-mustafa-asifs-projects-df9aa0b1.vercel.app',
     },
   },
   oAuthScopes: {

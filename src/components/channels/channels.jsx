@@ -68,12 +68,6 @@ const Channels = () => {
         </Text.Subheadline>
       </Spacings.Stack>
 
-      <Constraints.Horizontal max={13}>
-        <ContentNotification type="info">
-          <Text.Body intlMessage={messages.demoHint} />
-        </ContentNotification>
-      </Constraints.Horizontal>
-
       {loading && <LoadingSpinner />}
 
       {channelsPaginatedResult ? (
