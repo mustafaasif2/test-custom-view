@@ -10,7 +10,7 @@ const config = {
     },
     production: {
       customViewId: 'cm8g1h3fn0018sm01allrpq37',
-      url: 'https://test-custom-view-jm7yvjglf-mustafa-asifs-projects-df9aa0b1.vercel.app',
+      url: 'https://comforting-alfajores-5abed2.netlify.app',
     },
   },
   oAuthScopes: {
@@ -19,7 +19,7 @@ const config = {
   },
   type: 'CustomPanel',
   typeSettings: {
-    size: 'LARGE',
+    size: 'SMALL',
   },
   locators: ['products.product_details.general'],
 };
