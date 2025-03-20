@@ -9,7 +9,7 @@ const config = {
       initialProjectKey: 'test-project-12121',
     },
     production: {
-      customViewId: 'cm8h71q85004fyd010ntrxux3',
+      customViewId: 'cm8g1h3fn0018sm01allrpq37',
       url: 'https://comforting-alfajores-5abed2.netlify.app',
     },
   },
