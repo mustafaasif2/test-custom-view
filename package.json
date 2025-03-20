@@ -22,7 +22,7 @@
     "@babel/core": "^7.22.17",
     "@babel/runtime-corejs3": "^7.22.15",
     "@commercetools-frontend/actions-global": "23.2.0",
-    "@commercetools-frontend/application-components": "23.2.0",
+    "@commercetools-frontend/application-components": "poc-parent-view-refresh",
     "@commercetools-frontend/application-shell": "23.2.0",
     "@commercetools-frontend/application-shell-connectors": "23.2.0",
     "@commercetools-frontend/assets": "23.2.0",

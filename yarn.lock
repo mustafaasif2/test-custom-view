@@ -1088,6 +1088,23 @@
     "@babel/runtime" "^7.17.9"
     "@babel/runtime-corejs3" "^7.17.9"
 
+"@commercetools-frontend/actions-global@0.0.0-poc-parent-view-refresh-20250320093900":
+  version "0.0.0-poc-parent-view-refresh-20250320093900"
+  resolved "https://registry.yarnpkg.com/@commercetools-frontend/actions-global/-/actions-global-0.0.0-poc-parent-view-refresh-20250320093900.tgz#ede41cc311bcb7c6e217e0ae6463942ff2e06e31"
+  integrity sha512-sqarH3sStQy5hCR+9e3juvHmQChGQyAk7SdQv4nt25IfHSRzoiJ/OCR+OBRK5hBPtzdsQYdMhwLjuFPaS9h8yQ==
+  dependencies:
+    "@babel/runtime" "^7.22.15"
+    "@babel/runtime-corejs3" "^7.22.15"
+    "@commercetools-frontend/browser-history" "0.0.0-poc-parent-view-refresh-20250320093900"
+    "@commercetools-frontend/constants" "0.0.0-poc-parent-view-refresh-20250320093900"
+    "@commercetools-frontend/notifications" "0.0.0-poc-parent-view-refresh-20250320093900"
+    "@commercetools-frontend/sentry" "0.0.0-poc-parent-view-refresh-20250320093900"
+    "@types/lodash" "^4.14.198"
+    "@types/react" "^17.0.83"
+    "@types/react-redux" "^7.1.26"
+    lodash "4.17.21"
+    redux-thunk "2.4.2"
+
 "@commercetools-frontend/actions-global@23.2.0":
   version "23.2.0"
   resolved "https://registry.yarnpkg.com/@commercetools-frontend/actions-global/-/actions-global-23.2.0.tgz#d166281ccf79777dc6a55f96b7ffa6d1a058c5f3"
@@ -1155,6 +1172,78 @@
     prop-types "15.8.1"
     raf-schd "^4.0.3"
 
+"@commercetools-frontend/application-components@poc-parent-view-refresh":
+  version "0.0.0-poc-parent-view-refresh-20250320093900"
+  resolved "https://registry.yarnpkg.com/@commercetools-frontend/application-components/-/application-components-0.0.0-poc-parent-view-refresh-20250320093900.tgz#4001d5ed04480a1a7aa879878c8583fafe622d98"
+  integrity sha512-kleiJERKWQPTlXydPDQygGzD2+5SIcjE5uM3LT0LEopSWCMYdkwWdEKLwYPWqj3+Tr1XVR2R40qRQP9m2dTJ8A==
+  dependencies:
+    "@apollo/client" "3.7.14"
+    "@babel/runtime" "^7.22.15"
+    "@babel/runtime-corejs3" "^7.22.15"
+    "@commercetools-frontend/actions-global" "0.0.0-poc-parent-view-refresh-20250320093900"
+    "@commercetools-frontend/application-config" "0.0.0-poc-parent-view-refresh-20250320093900"
+    "@commercetools-frontend/application-shell-connectors" "0.0.0-poc-parent-view-refresh-20250320093900"
+    "@commercetools-frontend/assets" "0.0.0-poc-parent-view-refresh-20250320093900"
+    "@commercetools-frontend/constants" "0.0.0-poc-parent-view-refresh-20250320093900"
+    "@commercetools-frontend/i18n" "0.0.0-poc-parent-view-refresh-20250320093900"
+    "@commercetools-frontend/l10n" "0.0.0-poc-parent-view-refresh-20250320093900"
+    "@commercetools-frontend/sentry" "0.0.0-poc-parent-view-refresh-20250320093900"
+    "@commercetools-uikit/accessible-button" "^19.22.3"
+    "@commercetools-uikit/card" "^19.22.3"
+    "@commercetools-uikit/constraints" "^19.22.3"
+    "@commercetools-uikit/design-system" "^19.22.3"
+    "@commercetools-uikit/flat-button" "^19.22.3"
+    "@commercetools-uikit/hooks" "^19.22.3"
+    "@commercetools-uikit/icon-button" "^19.22.3"
+    "@commercetools-uikit/icons" "^19.22.3"
+    "@commercetools-uikit/label" "^19.22.3"
+    "@commercetools-uikit/messages" "^19.22.3"
+    "@commercetools-uikit/primary-button" "^19.22.3"
+    "@commercetools-uikit/secondary-button" "^19.22.3"
+    "@commercetools-uikit/secondary-icon-button" "^19.22.3"
+    "@commercetools-uikit/spacings" "^19.22.3"
+    "@commercetools-uikit/stamp" "^19.22.3"
+    "@commercetools-uikit/text" "^19.22.3"
+    "@commercetools-uikit/utils" "^19.22.3"
+    "@emotion/react" "^11.14.0"
+    "@emotion/styled" "^11.14.0"
+    "@flopflip/react-broadcast" "14.0.2"
+    "@radix-ui/react-dialog" "1.1.4"
+    "@react-hook/latest" "1.0.3"
+    "@react-hook/resize-observer" "1.2.6"
+    "@types/history" "^4.7.11"
+    "@types/lodash" "^4.14.198"
+    "@types/prop-types" "^15.7.5"
+    "@types/react" "^17.0.83"
+    "@types/react-dom" "^17.0.19"
+    "@types/react-modal" "^3.16.0"
+    "@types/react-router-dom" "^5.3.3"
+    history "4.10.1"
+    lodash "4.17.21"
+    prop-types "15.8.1"
+    raf-schd "^4.0.3"
+
+"@commercetools-frontend/application-config@0.0.0-poc-parent-view-refresh-20250320093900":
+  version "0.0.0-poc-parent-view-refresh-20250320093900"
+  resolved "https://registry.yarnpkg.com/@commercetools-frontend/application-config/-/application-config-0.0.0-poc-parent-view-refresh-20250320093900.tgz#741387d422e00f1a25a507c55a9d235a5d7c2918"
+  integrity sha512-ah4ODMj+HfMhOLfLqyofFf4M8CdH4S8wogHos34+RPCq5N8ZX51/xQJUD0ndY3DtARuMt44k+3WfRl6WprW59w==
+  dependencies:
+    "@babel/core" "^7.22.17"
+    "@babel/register" "^7.22.15"
+    "@babel/runtime" "^7.22.15"
+    "@babel/runtime-corejs3" "^7.22.15"
+    "@commercetools-frontend/constants" "0.0.0-poc-parent-view-refresh-20250320093900"
+    "@types/lodash" "^4.14.198"
+    "@types/react" "^17.0.83"
+    ajv "8.16.0"
+    core-js "^3.32.2"
+    cosmiconfig "9.0.0"
+    cosmiconfig-typescript-loader "6.1.0"
+    dompurify "^3.0.0"
+    jsdom "^21.1.2"
+    lodash "4.17.21"
+    omit-empty-es "1.2.0"
+
 "@commercetools-frontend/application-config@23.2.0":
   version "23.2.0"
   resolved "https://registry.yarnpkg.com/@commercetools-frontend/application-config/-/application-config-23.2.0.tgz#deaf46c512fcbe3190934d2d58ad515a4d50d15a"
@@ -1175,6 +1264,32 @@
     jsdom "^21.1.2"
     lodash "4.17.21"
     omit-empty-es "1.2.0"
+
+"@commercetools-frontend/application-shell-connectors@0.0.0-poc-parent-view-refresh-20250320093900":
+  version "0.0.0-poc-parent-view-refresh-20250320093900"
+  resolved "https://registry.yarnpkg.com/@commercetools-frontend/application-shell-connectors/-/application-shell-connectors-0.0.0-poc-parent-view-refresh-20250320093900.tgz#d481774d41a7b297c344712d5474b7c934e2e7ef"
+  integrity sha512-qq66FeIZ/p9b/BAq4EmVkXlMLsQq8gxsWX5cfB4nuMWT1x5HxEMtVuRCtgN8bkGBjrAKk8MBdsoshGQx3y/3ow==
+  dependencies:
+    "@babel/runtime" "^7.22.15"
+    "@babel/runtime-corejs3" "^7.22.15"
+    "@commercetools-frontend/application-config" "0.0.0-poc-parent-view-refresh-20250320093900"
+    "@commercetools-frontend/browser-history" "0.0.0-poc-parent-view-refresh-20250320093900"
+    "@commercetools-frontend/constants" "0.0.0-poc-parent-view-refresh-20250320093900"
+    "@commercetools-frontend/sentry" "0.0.0-poc-parent-view-refresh-20250320093900"
+    "@commercetools/http-user-agent" "3.0.0"
+    "@emotion/react" "^11.14.0"
+    "@types/lodash" "^4.14.198"
+    "@types/prop-types" "^15.7.5"
+    "@types/react" "^17.0.83"
+    apollo-link-logger "2.0.1"
+    graphql "16.8.2"
+    lodash "4.17.21"
+    moment-timezone "^0.5.40"
+    omit-empty-es "1.2.0"
+    prop-types "15.8.1"
+    tiny-warning "1.0.3"
+    uuid "9.0.1"
+    wait-for-observables "1.0.3"
 
 "@commercetools-frontend/application-shell-connectors@23.2.0":
   version "23.2.0"
@@ -1283,6 +1398,11 @@
     unfetch "4.2.0"
     uuid "9.0.1"
 
+"@commercetools-frontend/assets@0.0.0-poc-parent-view-refresh-20250320093900":
+  version "0.0.0-poc-parent-view-refresh-20250320093900"
+  resolved "https://registry.yarnpkg.com/@commercetools-frontend/assets/-/assets-0.0.0-poc-parent-view-refresh-20250320093900.tgz#9bb925632f9ea2c683cc5532f499783f8ba3ec20"
+  integrity sha512-WEri1sFzR6SMRZKx4yZfR7K55bZa39BhTcJN2Y0HoptoB0ykC5OC+tMheHXhPXsCXQZP+DqJnonclluZapTtJQ==
+
 "@commercetools-frontend/assets@23.2.0":
   version "23.2.0"
   resolved "https://registry.yarnpkg.com/@commercetools-frontend/assets/-/assets-23.2.0.tgz#ef9e1427fd144919482ad2f0de5d844973bd43d0"
@@ -1320,6 +1440,18 @@
     babel-plugin-transform-react-remove-prop-types "^0.4.24"
     core-js "^3.32.2"
 
+"@commercetools-frontend/browser-history@0.0.0-poc-parent-view-refresh-20250320093900":
+  version "0.0.0-poc-parent-view-refresh-20250320093900"
+  resolved "https://registry.yarnpkg.com/@commercetools-frontend/browser-history/-/browser-history-0.0.0-poc-parent-view-refresh-20250320093900.tgz#f9e72f0421070edd140c1ef396305db82e9834aa"
+  integrity sha512-CEm50939VQZp06fN6y7WILD2/W2kMItKatTjplF+fr3X52JEETwfGdWD3Us2KHlcMIppkSWTpwQZ/QTB5U1bJw==
+  dependencies:
+    "@babel/runtime" "^7.22.15"
+    "@babel/runtime-corejs3" "^7.22.15"
+    "@types/history" "^4.7.11"
+    history "4.10.1"
+    history-query-enhancer "1.0.4"
+    qss "2.0.3"
+
 "@commercetools-frontend/browser-history@23.2.0":
   version "23.2.0"
   resolved "https://registry.yarnpkg.com/@commercetools-frontend/browser-history/-/browser-history-23.2.0.tgz#71ab6be393f3bab827759f9326d46909153cc7a1"
@@ -1331,6 +1463,14 @@
     history "4.10.1"
     history-query-enhancer "1.0.4"
     qss "2.0.3"
+
+"@commercetools-frontend/constants@0.0.0-poc-parent-view-refresh-20250320093900":
+  version "0.0.0-poc-parent-view-refresh-20250320093900"
+  resolved "https://registry.yarnpkg.com/@commercetools-frontend/constants/-/constants-0.0.0-poc-parent-view-refresh-20250320093900.tgz#09d0ce7bb481fe1156fff471e7c0cd07ad318b7d"
+  integrity sha512-qpXyLuMDxYtZuaPX3DGfnjQexTm3Ao6rsQnc33DaExpvrvRD2zhJhNmcs/vB3pSpMtITo6TmO69g2BKedZGC5w==
+  dependencies:
+    "@babel/runtime" "^7.22.15"
+    "@babel/runtime-corejs3" "^7.22.15"
 
 "@commercetools-frontend/constants@23.2.0":
   version "23.2.0"
@@ -1365,6 +1505,23 @@
     eslint-plugin-testing-library "^5.11.1"
     prettier "^2.8.4"
     typescript "^5.2.2"
+
+"@commercetools-frontend/i18n@0.0.0-poc-parent-view-refresh-20250320093900":
+  version "0.0.0-poc-parent-view-refresh-20250320093900"
+  resolved "https://registry.yarnpkg.com/@commercetools-frontend/i18n/-/i18n-0.0.0-poc-parent-view-refresh-20250320093900.tgz#b78e47d9139b2e0133e5960e7598bebb4f5318d8"
+  integrity sha512-sh3IHD+PnLy/kYe0tK387JU7WpYAPv2spp2o6rw3SiNvCW9JXW/NfW/N8wbmaH6YV3Za2nNPVUDs6XNPMU0dOQ==
+  dependencies:
+    "@babel/runtime" "^7.22.15"
+    "@babel/runtime-corejs3" "^7.22.15"
+    "@commercetools-community-kit/i18n" "^0.3.0"
+    "@commercetools-frontend/sentry" "0.0.0-poc-parent-view-refresh-20250320093900"
+    "@commercetools-uikit/i18n" "^19.22.3"
+    "@emotion/react" "^11.14.0"
+    "@formatjs/icu-messageformat-parser" "2.7.8"
+    "@types/prop-types" "^15.7.5"
+    "@types/react" "^17.0.83"
+    moment "^2.29.4"
+    prop-types "15.8.1"
 
 "@commercetools-frontend/i18n@23.2.0":
   version "23.2.0"
@@ -1414,6 +1571,23 @@
     setimmediate "1.0.5"
     unfetch "4.2.0"
     uuid "9.0.1"
+
+"@commercetools-frontend/l10n@0.0.0-poc-parent-view-refresh-20250320093900":
+  version "0.0.0-poc-parent-view-refresh-20250320093900"
+  resolved "https://registry.yarnpkg.com/@commercetools-frontend/l10n/-/l10n-0.0.0-poc-parent-view-refresh-20250320093900.tgz#3e4b881f4b3a60101291874bc16d0544f1efa467"
+  integrity sha512-ttTOf4OVxYAoTRcmrH0w7GMXQ6InjKYRu4HRo+kXaSIP8hAyqAOkCq/TuBHlcBv0TtBaytt/3Qjz6aK3uYPlNg==
+  dependencies:
+    "@babel/runtime" "^7.22.15"
+    "@babel/runtime-corejs3" "^7.22.15"
+    "@commercetools-frontend/sentry" "0.0.0-poc-parent-view-refresh-20250320093900"
+    "@emotion/react" "^11.14.0"
+    "@types/lodash" "^4.14.198"
+    "@types/prop-types" "^15.7.5"
+    "@types/react" "^17.0.83"
+    lodash "4.17.21"
+    moment "^2.29.4"
+    moment-timezone "^0.5.40"
+    prop-types "15.8.1"
 
 "@commercetools-frontend/l10n@23.2.0":
   version "23.2.0"
@@ -1531,6 +1705,14 @@
     webpack-dev-server "4.15.2"
     webpackbar "5.0.2"
 
+"@commercetools-frontend/notifications@0.0.0-poc-parent-view-refresh-20250320093900":
+  version "0.0.0-poc-parent-view-refresh-20250320093900"
+  resolved "https://registry.yarnpkg.com/@commercetools-frontend/notifications/-/notifications-0.0.0-poc-parent-view-refresh-20250320093900.tgz#9cf30ecb12675b9d7a9252880a085984bc867dea"
+  integrity sha512-8NkGxzCs3WMpEGIihfUTL+7TtqYAgMrPq/i4DWc5+2emQ3GXzKVLCpTvUkXiB/QZQhweaKDtoPxEYv/R4fCh0Q==
+  dependencies:
+    "@babel/runtime" "^7.22.15"
+    "@babel/runtime-corejs3" "^7.22.15"
+
 "@commercetools-frontend/notifications@23.2.0":
   version "23.2.0"
   resolved "https://registry.yarnpkg.com/@commercetools-frontend/notifications/-/notifications-23.2.0.tgz#3b905d8a692e4155f766b332fb86deaca023b041"
@@ -1616,6 +1798,22 @@
     qss "2.0.3"
     unfetch "4.2.0"
     uuid "9.0.1"
+
+"@commercetools-frontend/sentry@0.0.0-poc-parent-view-refresh-20250320093900":
+  version "0.0.0-poc-parent-view-refresh-20250320093900"
+  resolved "https://registry.yarnpkg.com/@commercetools-frontend/sentry/-/sentry-0.0.0-poc-parent-view-refresh-20250320093900.tgz#d3a6b91f338a16060f93285bc438e512b9df95d7"
+  integrity sha512-fysbRIuQUsEaeLamiNWn3oX4xAQUG197H/mdmj7OfSuwWQpjnpI2eQpRjsdpk6429rX43TZHS3Qk0CVGhxpt+Q==
+  dependencies:
+    "@babel/runtime" "^7.22.15"
+    "@babel/runtime-corejs3" "^7.22.15"
+    "@commercetools-frontend/browser-history" "0.0.0-poc-parent-view-refresh-20250320093900"
+    "@commercetools-frontend/constants" "0.0.0-poc-parent-view-refresh-20250320093900"
+    "@sentry/browser" "7.119.1"
+    "@sentry/react" "7.117.0"
+    "@sentry/types" "7.117.0"
+    "@types/prop-types" "^15.7.5"
+    "@types/react" "^17.0.83"
+    prop-types "15.8.1"
 
 "@commercetools-frontend/sentry@23.2.0":
   version "23.2.0"
